@@ -95,6 +95,9 @@ body {
 
   .container .flex .column2 p {
     padding-right: 11rem;
-    line-height: 1.6;
+    line-height: 1.7;
+    align-content: left;
+    
+    
   }
 }
