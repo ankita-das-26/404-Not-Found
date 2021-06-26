@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.container h3 {
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 0 0 24px;
+  text-transform: uppercase;
+  letter-spacing: -2.3px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.container img {
+  width: 286.83px;
+  height: 238px;
+  margin: 109px 44px 0;
+}
+
+.container h1 {
+  color: #333333;
+  font-size: 2.9rem;
+  padding: 60px 5px 0 24px;
+}
+
+.container .content {
+  color: #4f4f4f;
+  margin: 20px 24px;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container .btn {
+  border: none;
+  background-color: #333333;
+  color: white;
+  margin: 50px 24px;
+  padding: 24px 43px;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+}
+
+.container .credits {
+  padding: 28px 24px;
+  font-size: 12px;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+.container .credits span {
+  text-decoration: underline;
+}
+
+@media (min-width: 758px) {
+  .container h3 {
+    padding-top: 40px;
+    padding-left: 77px;
+  }
+
+  .container .flex {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container img {
+    width: 539.22px;
+    height: 447.43px;
+  }
+
+  .container .flex .column2 {
+    padding: 90px;
+  }
+
+  .container .flex .column2 p {
+    padding-right: 11rem;
+    line-height: 1.6;
+  }
+}
