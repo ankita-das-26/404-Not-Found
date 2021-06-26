@@ -71,7 +71,7 @@ body {
   text-decoration: underline;
 }
 
-@media (min-width: 758px) {
+@media (min-width: 991px) {
   .container h3 {
     padding-top: 40px;
     padding-left: 77px;
