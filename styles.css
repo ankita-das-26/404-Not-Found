@@ -90,6 +90,7 @@ body {
 
   .container .flex .column2 {
     padding: 90px;
+    align-content: left;
   }
 
   .container .flex .column2 p {
